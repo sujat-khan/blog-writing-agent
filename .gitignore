@@ -1,0 +1,57 @@
+# ── Environment & secrets ──────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.spec
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+myvenv/
+venv/
+.venv/
+env/
+ENV/
+
+# ── Jupyter Notebooks checkpoints ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ── Generated blog output ─────────────────────────────────────────────────────
+*.md
+!README.md
+
+# ── Generated images ──────────────────────────────────────────────────────────
+images/
+
+# ── OS & editor artifacts ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── LangChain / LangSmith cache ───────────────────────────────────────────────
+.langchain/
+langchain.db
+
+# ── Pytest & coverage ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/

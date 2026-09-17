@@ -1,0 +1,19 @@
+# Core LLM & LangChain
+langchain-openai
+langchain-core
+langchain-community
+langgraph
+
+# Web search (research node)
+tavily-python
+
+# Google Generative AI (image generation)
+google-genai
+
+# Frontend
+streamlit
+pandas
+
+# Utilities
+python-dotenv
+pydantic
